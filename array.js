@@ -25,11 +25,18 @@ The sol:
 
 
 // 3-
-
 let favFood = ["Pizza","Shawarma","Watermelon","Mansaf","Bulgur"];
 let favSport = ["Football","Baseball","Softball"];
 let favMovie = ["Fare","Lord of Rings","Hacksaw Ridge","Burning Bright"];
 
+
+// 4-
+function firstOfArray(arr){
+  return arr[0];
+}
+
+
+// 5-
 
 
 
