@@ -304,7 +304,6 @@ function evenIndexOddLength(arr){
     return newArray;
 }
 
-
 //using while loop:
 function evenIndexOddLengthWhile(arr){
     let i = 0;
@@ -321,23 +320,32 @@ function evenIndexOddLengthWhile(arr){
     }
     return newArray;
 }
- 
 
 
 
+// 21-
+//using for loop:
+function powerElementIndex(arr){
+    let newArray = [];
+    for (let index = 0; index < arr.length; index++) {
+         newArray[index] = arr[index] ** index;
+        //  newArray[index] = Math.pow(arr[index],index); an other way 
+    }
+    return newArray;
+}
 
-/*
-21
-Create a function called powerElementIndex
-that accept an array of number
-and return a new array that have the elemnt power by the index of it self
+//using while loop:
+function powerElementIndexWhile(arr){
+    let newArray = [];
+    let index = 0;
+    while(index < arr.length){
+        newArray[index] = Math.pow(arr[index],index);
+        index++;
+    }    
+    return newArray;
+}
 
-var nums= [44, 5, 4, 3, 2, 10]
-Ex: powerElementIndex(nums) => [0, 5, 16, 27, 16, 100000]
 
-** solve it one time using for loop and another using while loop
-**try more cases by your self
-*/
 
 
 /*
