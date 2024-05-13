@@ -79,25 +79,25 @@ animals[4]='elephant';
 
 // 10-
 function indexOfArray(arr,index){
- if(index >= arr.length ){
-  return "Out of index";
- }  else{
-    return arr[index];
- }
+    if(index >= arr.length ){
+        return "Out of index";
+    }  else{
+        return arr[index];
+    }
 }
 
 
 // 11-
 function arrayExceptLast(arr){
-  return arr.slice(-arr.length,-1); 
+    return arr.slice(-arr.length,-1); 
 }
 
 
 // 12-
 function addToEnd(arr,value){
-      let array = arr;
-      array.pop();
-      array.push(value);
+    let array = arr;
+    array.pop();
+    array.push(value);
     return array; 
 }
 
@@ -105,11 +105,11 @@ function addToEnd(arr,value){
 // 13-
 //using for loop: 
 function sumArray(arr){
-  let sumElement = 0;
+    let sumElement = 0;
     for (let index = 0; index < arr.length; index++) {
-     sumElement +=arr[index]; 
-  }
-  return sumElement;
+        sumElement +=arr[index]; 
+    }
+    return sumElement;
 }
 
 //using while loop:
@@ -123,4 +123,45 @@ function sumArrayWhile(arr){
     }
     return sumElement;
 }
+
+
+// 14-
+//using for loop:
+function minInArray(arr){
+    let minValue=arr[0];
+    for (let index = 0; index < arr.length; index++) {
+        if(arr[index]<=arr[index+1]){
+            if(arr[index]<=minValue){
+            minValue = arr[index];
+            }
+        }else if(arr[index]>= arr[index+1]){
+            if(arr[index+1]<= minValue){
+            minValue = arr[index+1];
+            }
+            }
+    }
+    return minValue;
+}
+
+//using while loop:
+function minInArrayWhile(arr){
+    let minValue = arr[0];
+    let index = 0;
+    while(index < arr.length){
+        if(arr[index]<=arr[index+1]){
+            if(arr[index]<=minValue){
+            minValue = arr[index];
+            }
+        }else if(arr[index]>= arr[index+1]){
+            if(arr[index+1]<= minValue){
+            minValue = arr[index+1];
+            }
+            }
+            index++;
+    }
+    return minValue;
+}
+
+
+
 
