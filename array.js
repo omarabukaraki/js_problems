@@ -75,3 +75,14 @@ function middleOfArray(arr){
 var animals = ['cat', 'ele', 'bird'];
 animals[3]= 'zebra';
 animals[4]='elephant';
+
+
+// 10-
+function indexOfArray(arr,index){
+ if(index >= arr.length ){
+  return "Out of index";
+ }  else{
+    return arr[index];
+ }
+}
+
