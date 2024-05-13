@@ -49,7 +49,7 @@ array.shift();
 array.shift();
 array.shift();
 array.unshift(1,3,4,6,8);
-console.log(array);
+// console.log(array);
 
 // 7-
 /*
@@ -71,11 +71,7 @@ function middleOfArray(arr){
 }
 
 
-
-
-
-
-
-
-
-
+// 9-
+var animals = ['cat', 'ele', 'bird'];
+animals[3]= 'zebra';
+animals[4]='elephant';
