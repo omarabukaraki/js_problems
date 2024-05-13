@@ -163,5 +163,33 @@ function minInArrayWhile(arr){
 }
 
 
+// 15-
+//using for loop:
+function removeFromArray(arr,element){
+    let array = arr;
+    for (let index = 0; index < arr.length; index++) {
+        if(arr[index]=== element){
+            array.splice(index,1);
+        }        
+    }
+    return array;
+}
+
+//using while loop:
+function removeFromArrayWhile(arr,element){
+    let array = arr;
+    let index = 0;
+    while(index < arr.length){
+        if(arr[index]=== element){
+            array.splice(index,1);
+        }    
+        index++;
+    }
+    return array;
+}
+
+
+
+
 
 
