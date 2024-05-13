@@ -100,3 +100,27 @@ function addToEnd(arr,value){
       array.push(value);
     return array; 
 }
+
+
+// 13-
+//using for loop: 
+function sumArray(arr){
+  let sumElement = 0;
+    for (let index = 0; index < arr.length; index++) {
+     sumElement +=arr[index]; 
+  }
+  return sumElement;
+}
+
+//using while loop:
+function sumArrayWhile(arr){
+    let index = 0;
+    let sumElement = 0;
+    
+    while(index < arr.length){
+        sumElement += arr[index];
+        index++;
+    }
+    return sumElement;
+}
+
