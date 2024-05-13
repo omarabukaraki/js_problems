@@ -220,6 +220,25 @@ function oddArrayWhile(arr){
     return newArr;
 }
 
+// 17-
+//using for loop:
+function aveArray(arr){
+    let sumArray = 0;
+    for (let index = 0; index < arr.length; index++) {
+        sumArray += arr[index];    
+    }  
+    return (sumArray / arr.length);
+}
 
-
+//using while loop:
+function aveArrayWhile(arr){
+    let sumArray =0;
+    let index =0;
+    while(index < arr.length){
+        sumArray+=arr[index];
+        index++;
+    }
+    sumArray /=  arr.length;
+    return sumArray;
+}
 
