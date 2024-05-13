@@ -91,3 +91,12 @@ function indexOfArray(arr,index){
 function arrayExceptLast(arr){
   return arr.slice(-arr.length,-1); 
 }
+
+
+// 12-
+function addToEnd(arr,value){
+      let array = arr;
+      array.pop();
+      array.push(value);
+    return array; 
+}
