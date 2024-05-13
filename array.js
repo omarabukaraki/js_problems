@@ -242,3 +242,21 @@ function aveArrayWhile(arr){
     return sumArray;
 }
 
+
+// 18-
+function shorterInArray(arr){ 
+    let shorterString = arr[0];
+    for (let index = 0; index < arr.length; index++) {
+    if(arr[index].length <= arr[index].length){
+        if(arr[index].length < shorterString.length){
+            shorterString = arr[index];
+        }
+    } 
+    else if(arr[index].length >= arr[index].length){
+        if(arr[index+1].length < shorterString.length){
+            shorterString = arr[index+1];
+        }
+    }    
+    }
+    return shorterString;
+}
