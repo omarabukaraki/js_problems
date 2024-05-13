@@ -52,6 +52,28 @@ array.unshift(1,3,4,6,8);
 console.log(array);
 
 // 7-
+/*
+7
+Using the console try to figure out what the thing thats (push, unshift, shift, pop) return to you
+
+var array2 = [5,9,-7,3.5]
+*/
+
+
+// 8-
+function middleOfArray(arr){
+    if(arr.length % 2 === 1){
+     return arr[(arr.length /2)-0.5];
+    }else{
+        return `"${arr[(arr.length / 2 )-1]} and ${arr[arr.length / 2]}"`;
+    }
+
+}
+
+
+
+
+
 
 
 
