@@ -260,3 +260,72 @@ function shorterInArray(arr){
     }
     return shorterString;
 }
+
+
+// 19-
+//using for loop:
+function repeatChar(string , char){
+    let intCount =0;
+    for (let index = 0; index < string.length; index++) {
+    if(string[index] === char){
+        intCount++;
+    }
+    } 
+    return intCount;
+}
+
+//using while loop:
+function repeatCharWhile(string , char){
+    let intCount =0;
+    let index = 0;
+    while(index < string.length){
+        if(string[index] === char){
+            intCount++;
+        }
+        index++;
+    }
+    return intCount;
+}
+
+
+
+/*
+20
+Create a function called evenIndexOddLength
+that accept an array of strings
+and return a new array that have the string with odd length in even index
+
+var strings= ["alex","mercer","madrasa","rashed2","emad","hala"]
+Ex: evenIndexOddLength(strings) => ["madrasa"]
+
+** solve it one time using for loop and another using while loop
+**try more cases by your self
+*/
+
+
+/*
+21
+Create a function called powerElementIndex
+that accept an array of number
+and return a new array that have the elemnt power by the index of it self
+
+var nums= [44, 5, 4, 3, 2, 10]
+Ex: powerElementIndex(nums) => [0, 5, 16, 27, 16, 100000]
+
+** solve it one time using for loop and another using while loop
+**try more cases by your self
+*/
+
+
+/*
+22
+Create a function called evenNumberEvenIndex
+that accept an array of nums
+and return a new array that have the even number in even index
+
+var nums= [5,2,2,1,8,66,55,77,34,9,55,1]
+Ex: evenNumberEvenIndex(nums) => [2,8,34]
+
+** solve it one time using for loop and another using while loop
+**try more cases by your self
+*/
