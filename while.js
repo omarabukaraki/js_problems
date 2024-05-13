@@ -14,3 +14,17 @@ function subtract(n){
     return result;
 }
 
+
+
+// 2-
+function factorial(n){
+    let index = n;
+    let result = n;
+    while(index > 0){
+        if(index != n){result *= index;}
+        index--;
+    }
+    return result;
+}
+
+
