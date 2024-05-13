@@ -288,19 +288,42 @@ function repeatCharWhile(string , char){
 }
 
 
+// 20-
+//using for loop:
+function evenIndexOddLength(arr){
+    let i = 0;
+    let newArray = [];
+    for (let index = 0; index < arr.length; index++) {
+        if(index % 2 === 0){
+            if(arr[index].length % 2 ===1 ){
+                newArray[i] = arr[index];
+                i++;
+            }
+        }        
+    }
+    return newArray;
+}
 
-/*
-20
-Create a function called evenIndexOddLength
-that accept an array of strings
-and return a new array that have the string with odd length in even index
 
-var strings= ["alex","mercer","madrasa","rashed2","emad","hala"]
-Ex: evenIndexOddLength(strings) => ["madrasa"]
+//using while loop:
+function evenIndexOddLengthWhile(arr){
+    let i = 0;
+    let newArray= [];
+    let index = 0;
+    while(index < arr.length){
+        if(index % 2 === 0){
+            if(arr[index].length % 2 ===1 ){
+                newArray[i] = arr[index];
+                i++;
+            }
+        }        
+        index++;
+    }
+    return newArray;
+}
+ 
 
-** solve it one time using for loop and another using while loop
-**try more cases by your self
-*/
+
 
 
 /*
