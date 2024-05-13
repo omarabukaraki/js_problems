@@ -86,3 +86,8 @@ function indexOfArray(arr,index){
  }
 }
 
+
+// 11-
+function arrayExceptLast(arr){
+  return arr.slice(-arr.length,-1); 
+}
