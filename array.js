@@ -346,17 +346,35 @@ function powerElementIndexWhile(arr){
 }
 
 
+// 22-
+//using for loop:
+function evenNumberEvenIndex(arr){
+    let i = 0;
+    let newArray = [];
+    for (let index = 0; index < arr.length; index++) {
+        if(arr[index] % 2 === 0){
+            if(index % 2 ===0){
+                newArray[i] = arr[index]; 
+                i++;
+            }
+        }        
+    }
+    return newArray;
+}
 
-
-/*
-22
-Create a function called evenNumberEvenIndex
-that accept an array of nums
-and return a new array that have the even number in even index
-
-var nums= [5,2,2,1,8,66,55,77,34,9,55,1]
-Ex: evenNumberEvenIndex(nums) => [2,8,34]
-
-** solve it one time using for loop and another using while loop
-**try more cases by your self
-*/
+//using while loop:
+function evenNumberEvenIndexWhile(arr){
+    let i = 0;
+    let newArray = [];
+    let index = 0;
+    while(index < arr.length){
+        if(arr[index] % 2 === 0){
+            if(index % 2 ===0){
+                newArray[i] = arr[index]; 
+                i++;
+            }
+        }        
+        index++;
+    }
+    return newArray;
+}
