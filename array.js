@@ -37,6 +37,11 @@ function firstOfArray(arr){
 
 
 // 5-
+function lastOfArray(arr){
+    return arr[arr.length -1];
+}
+
+
 
 
 
