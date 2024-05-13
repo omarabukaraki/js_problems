@@ -1,3 +1,4 @@
+
 console.log('Here is : ', 'array');
 
 /*1
@@ -189,6 +190,35 @@ function removeFromArrayWhile(arr,element){
 }
 
 
+// 16-
+// using for loop:
+function oddArray(arr){
+let i = 0;
+let newArr = [];
+for (let index = 0; index < arr.length; index++) {
+    if(arr[index]%2 === 1){
+        newArr[i] = arr[index];
+        i++;
+    }    
+}
+return newArr;
+}
+
+//using while loop:
+function oddArrayWhile(arr){
+    let i = 0;
+    let newArr = [];
+    let index = 0;
+
+    while(index < arr.length){
+        if(arr[index]%2 === 1){
+            newArr[i]= arr[index];
+            i++;
+        }
+        index++;
+    }
+    return newArr;
+}
 
 
 
