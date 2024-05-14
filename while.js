@@ -145,24 +145,23 @@ function multiplication2(num1 , num2){
 
 // 11-
 function mod2(num1 , num2){
-   if(num1 < num2 ) return num1;
-   return mod2(num1-num2,num2);
+    if(num1 < num2 ) return num1;
+    return mod2(num1-num2,num2);
 }
 
 
+// 12-
+function repeatChar(str,char){
+    let string =str.toLowerCase();
+    let char1 =char.toLowerCase();
+    let index = 0;
+    let counter = 0;
+    while(index < str.length){
+        if(string[index] === char1){
+            counter++;
+        }
+        index++;
+    }
+    return counter;
+}
 
-
-/*
-12
-Write a function called repeatChar
-that takes two parameters
-and return the times that this char
-without case sensetive
-repeat inside this string
-**hint: "str"[0] => "s"
-**hint: "car"[1] => "a"
-repeatChar("schOol","o") => 2
-repeatChar("school","a") => 0
-repeatChar("School","s") => 1
-try more case by yourself
-*/
