@@ -139,7 +139,30 @@ function countDown(num1){
 
 // 10-
 function multiplication2(num1 , num2){
-     if(num2 === 1) return num1;
-     return num1+ multiplication2(num1 , num2 - 1)
-
+    if(num2 === 1) return num1;
+    return num1+ multiplication2(num1 , num2 - 1)
 }
+
+// 11-
+function mod2(num1 , num2){
+   if(num1 < num2 ) return num1;
+   return mod2(num1-num2,num2);
+}
+
+
+
+
+/*
+12
+Write a function called repeatChar
+that takes two parameters
+and return the times that this char
+without case sensetive
+repeat inside this string
+**hint: "str"[0] => "s"
+**hint: "car"[1] => "a"
+repeatChar("schOol","o") => 2
+repeatChar("school","a") => 0
+repeatChar("School","s") => 1
+try more case by yourself
+*/
