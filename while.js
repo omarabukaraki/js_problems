@@ -92,10 +92,25 @@ function repeatStr2(strOne, strTwo){
 
 // 6-
 function multiOf(fNumber,sNumber,thNumber){
- let result = fNumber * (Math.pow(sNumber,thNumber));
- return result;
+    let result = fNumber * (Math.pow(sNumber,thNumber));
+    return result;
 }
 
+
+// 7-
+function muti2(nOne,nTwo){
+    let multi = 1;
+    let index = nOne;
+    while(index <= nTwo){
+        if(nOne != nTwo){
+            multi *= index;
+        }else{
+            multi = Math.pow(index,2);
+        }        
+        index++;
+    }   
+    return multi;
+}
 
 
 
