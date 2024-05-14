@@ -28,3 +28,68 @@ function factorial(n){
 }
 
 
+// 3-
+function repeatStr(text , number ){
+    let arr = [];
+    let index = 0;
+    while(index < number){
+        arr[index] = text;  
+        index++;
+    }
+    if(number !== 0 ){
+    return `"${arr.join(" ")}"`;
+    }
+    else{ 
+    return ``;
+    }  
+}
+
+/*
+3
+Create a function called repeatStr
+that takes 2 parameters string and number,
+and return the string number time with space
+Important: the continue condition should be [somthing !== 0]
+** Think how we can return nothing ???
+** Important: You should dint have extra space at the end
+Ex: repeatStr("to",2); => "to to"
+Ex: repeatStr("to",4); => "to to to to"
+*/
+
+
+// 4-
+function sum2(firstN , secondN){
+    let sum = 0;
+    let index = firstN;
+    while(index <= secondN){
+        if(firstN != secondN){
+            sum += index;
+        }else{
+            sum = index*2;
+        }        
+        index++;
+    }   
+    return sum;
+}
+
+
+
+
+
+
+
+
+
+/*
+5
+Create a function called repeatStr2
+that takes 2 string parameters,
+and return the first string number time
+(of the lenght of the secend string) with space betweeen it
+** Important: the continue condition should be [somthing!== 0]
+** Important: You should't have extra space at the end
+Ex: repeatStr2("ro","cc"); => "ro ro"
+Ex: repeatStr2("ro","fff"); => "ro ro ro"
+*/
+
+
