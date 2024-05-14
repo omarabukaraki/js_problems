@@ -73,23 +73,32 @@ function sum2(firstN , secondN){
 }
 
 
+// 5-
+function repeatStr2(strOne, strTwo){
+    let index = 0;
+    let arr = [];
+    while(index < strTwo.length){
+    arr[index] = strOne;
+    index++;
+    }
+    if(index !==0 ){
+        return `"${arr.join(" ")}"`;
+    }else{
+        return ``;
+    }
+
+}
+
+
+// 6-
+function multiOf(fNumber,sNumber,thNumber){
+ let result = fNumber * (Math.pow(sNumber,thNumber));
+ return result;
+}
 
 
 
 
 
-
-
-/*
-5
-Create a function called repeatStr2
-that takes 2 string parameters,
-and return the first string number time
-(of the lenght of the secend string) with space betweeen it
-** Important: the continue condition should be [somthing!== 0]
-** Important: You should't have extra space at the end
-Ex: repeatStr2("ro","cc"); => "ro ro"
-Ex: repeatStr2("ro","fff"); => "ro ro ro"
-*/
 
 
