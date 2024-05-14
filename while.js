@@ -189,5 +189,18 @@ function mirror(str){
 }
 
 
-
+// 3-
+function mirrorCaseAlso(str){
+    let arr = [];
+    let i = 0;
+    while(i < str.length){
+        if(str[i] !== str[i].toLowerCase()){
+            arr.unshift(str[i].toLowerCase());
+        }else{
+            arr.unshift(str[i].toUpperCase());
+        }
+        i++;
+    }
+    return `"${arr.join("")}"`;
+}
 
