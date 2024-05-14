@@ -137,3 +137,9 @@ function countDown(num1){
 }
 
 
+// 10-
+function multiplication2(num1 , num2){
+     if(num2 === 1) return num1;
+     return num1+ multiplication2(num1 , num2 - 1)
+
+}
