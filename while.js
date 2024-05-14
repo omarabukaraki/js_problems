@@ -176,3 +176,18 @@ function fibon(number){
     return fibon(number -1) + fibon(number -2);
 }
 
+
+// 2-
+function mirror(str){
+    let arr = [];
+    let i = 0;
+    while(i < str.length){
+        arr.unshift(str[i]);
+        i++;
+    }
+    return `"${arr.join("")}"`;
+}
+
+
+
+
