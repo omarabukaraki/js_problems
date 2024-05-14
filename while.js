@@ -204,3 +204,16 @@ function mirrorCaseAlso(str){
     return `"${arr.join("")}"`;
 }
 
+
+// 4-
+function repeatChar2(str,char){
+    let index = 0;
+    let counter = 0;
+    while(index < str.length){
+        if(str[index] === char){
+            counter++;
+        }
+        index++;
+    }
+    return counter;
+}
