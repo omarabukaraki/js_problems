@@ -113,6 +113,23 @@ function muti2(nOne,nTwo){
 }
 
 
+// 8-
+function numberBetweenUs(num1 , num2){
+    let index = num1;
+    let numbers = "";  
+    while (index < num2){
+        if(index === num2-1){
+            numbers =  numbers.concat(`${index}`) ;
+        }
+        else if(index !== num1){
+            numbers =  numbers.concat(`${index}, `) ;
+        }
+        index++;
+    }
+    return `"${numbers}"`;
+}
+
+
 
 
 
