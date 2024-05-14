@@ -165,3 +165,14 @@ function repeatChar(str,char){
     return counter;
 }
 
+
+
+/**********{Advanced Part}**********/
+
+// 1-
+function fibon(number){
+    if(number === 0) return 1 ;
+    if(number === 1) return 1 ;
+    return fibon(number -1) + fibon(number -2);
+}
+
