@@ -223,26 +223,15 @@ function randomBetweenNumbers(num1,num2){
 }
 
 
-/*
-22
-Write a function called scoreInUniversty
-that takes 1 parameters
-and returns the alpabet in the unevirsty
-A => 95-100
-B => 85-94
-C => 70-84
-D=> 50-69
-F=> 0-49
+// 22-
+function scoreInUniversty(score){
+    if(95<=score && score<=100)return `"A"`;
+    else if(85<=score && score<=94) return `"B"`;
+    else if(70<=score && score<=84) return `"C"`;
+    else if(50<=score  && score<=69) return `"D"`;
+    else return `"F"`;
+}
 
-Ex: scoreInUniversty(96)
-=> "A"
-
-Ex: scoreInUniversty(3)
-=> "F"
-
-Ex: scoreInUniversty(71)
-=> "C"
-*/
 
 
 /*
