@@ -7,18 +7,12 @@ function tellFortune(Jt,gLo,pName,nCh){
 }
 
 
-/*
-2
-Write a function named calculateDogAge that:
-takes 1 argument: your puppy's age.
-calculates your dog's age based on the conversion
-rate of 1 human year to 7 dog years.
-outputs the result to the screen like so:
-"Your doggie is NN years old in dog years!"
 
-Ex: calculateDogAge(1);
-=> "Your doggie is 7 years old in dog years!"
-*/
+// 2-
+function calculateDogAge(pAge){
+    let result = `Your doggie is ${pAge*7} years old in dog years!`;
+    return result;
+}
 
 
 /*
