@@ -205,21 +205,12 @@ function average(n1,n2,n3,n4,n5){
 
 
 
+// 20-
+function randomNumber(){
+    return Math.random();
+}
 
-/*
-20
-Write a function called randomNumber
-that didnt takes any parameter
-and returns a random number between 0-1
-** hint: you can seacrh using MDN
 
-Ex: randomNumber()
-=> 0.2278
-
-Ex: randomNumber()
-=> 0.475
-
-*/
 
 /*
 21
