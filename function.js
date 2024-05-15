@@ -116,18 +116,22 @@ function sameLength(str1 , str2){
     }
 }
 
-/*
-11
-Write a function called largerNubmer
-that accept two numbers as arguments,
-and return the first larger numbers
 
-Ex: largerNubmer(5,6)
-=> 6
+// 11-
+function largerNubmer(num1, num2){
+    if(num1 > num2){
+        return num1;
+    }else{
+        return num2;
+    }
+}
 
-Ex: largerNubmer(5,3)
-=> 5
-*/
+
+
+
+
+
+
 
 
 /*
