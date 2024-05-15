@@ -166,21 +166,12 @@ function longerString(str1,str2,str3,str4){
 }
 
 
-
-
-/*
-15
-Write a function called isEven
-that accept 1 argument as a number,
-and return true if this number is even
-and false if this number is odd
-
-Ex: isEven(1)
-=> false
-Ex: isEven(2)
-=> true
-
-*/
+// 15-
+function isEven(number){
+    let bool;
+    number % 2 === 0 ? bool = true : bool = false;
+    return bool;
+}
 
 
 /*
