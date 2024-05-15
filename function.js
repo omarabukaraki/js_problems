@@ -198,19 +198,12 @@ function fullName(fName,lName){
 
 
 
-/*
-19
-Write a function called average
-that takes five numbers as inputs
-and returns the average of those numbers.
+// 19-
+function average(n1,n2,n3,n4,n5){
+    return ((n1+n2+n3+n4+n5) / 5);
+}
 
-Ex: average(1,2,3,4,5)
-=> 3
 
-Ex: average(5,7,9,3,5)
-=> 5.8
-
-*/
 
 
 /*
