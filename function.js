@@ -174,19 +174,12 @@ function isEven(number){
 }
 
 
-/*
-16
-Write a function called isOdd
-that accept 1 argument as a number,
-and return true if this number is Odd
-and false if this number is Even
-
-Ex: isOdd(4)
-=> false
-Ex: isOdd(5)
-=> true
-
-*/
+// 16-
+function isOdd(number){
+    let bool;
+    number % 2 === 1 ? bool = true : bool = false;
+    return bool;
+}
 
 
 /*
