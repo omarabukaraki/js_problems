@@ -128,31 +128,18 @@ function largerNubmer(num1, num2){
 
 
 
+// 12-
+function smallerNubmer(num1,num2,num3){
+    if(num1 < num2 && num1 < num3){
+        return num1;
+    }else if(num2 < num1 && num2 < num3){
+        return num2
+    }else return num3;
+}
 
 
 
 
-
-
-/*
-12
-Write a function called smallerNubmer
-that accept three numbers as arguments,
-and return the first smaller number
-
-Ex: smallerNubmer(8,6,7)
-=> 6
-
-Ex: smallerNubmer(5,99,34)
-=> 5
-
-Ex: smallerNubmer(5,99,3)
-=> 3
-
-Ex: smallerNubmer(5,3,3)
-=> 3
-
-*/
 
 /*
 13
