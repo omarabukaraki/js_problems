@@ -94,6 +94,7 @@ function multiply(num1,num2){
 }
 
 
+
 // 9-
 function canIGetADrivingLicense(age){
     let acceptAge = 20;
@@ -105,20 +106,15 @@ function canIGetADrivingLicense(age){
 }
 
 
-/*
-10
-Write a function called sameLength
-that accepts two strings as arguments,
-and returns true if those strings have the same length, and false otherwise.
 
-**hint: how we can know string length   Ex: : "tree".length   => 4
-
-Ex: sameLength("tree","clue")
-=> true
-
-Ex: sameLength("tree","car")
-=> false
-*/
+// 10-
+function sameLength(str1 , str2){
+    if(str1.length === str2.length){
+        return true;
+    }else{
+        return false;
+    }
+}
 
 /*
 11
