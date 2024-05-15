@@ -27,16 +27,14 @@ Ex: calculateSupply(30, 3);
 => 'You will need 76650 cups of tea to last you until the ripe old age of 100;
 */
 
+// 3-
 
-/*
-4
-Write a function called greet that:
-takes 1 argument: name.
-and it will return hello + name
 
-Ex: greet("Adam")
-=> "Hello Adam"
-*/
+
+// 4- 
+function greet(name){
+    return `Hello ${name}`
+}
 
 
 /*
