@@ -94,23 +94,15 @@ function multiply(num1,num2){
 }
 
 
-/*
-9
-Write a function called canIGetADrivingLicense that:
-accept 1 parameter represent the age
-and if the age greater than or equal to 20 return "yes you can"
-otherwise return "please come back after X years to get one"
-
-Ex: canIGetADrivingLicense(21)
-=> "yes you can"
-
-Ex: canIGetADrivingLicense(17)
-=> "please come back after 3 years to get one"
-
-Ex: canIGetADrivingLicense(20)
-=> "yes you can"
-
-*/
+// 9-
+function canIGetADrivingLicense(age){
+    let acceptAge = 20;
+    if(age >= acceptAge){
+        return `"yes you can"`;
+    }else{
+        return `"please come back after ${acceptAge - age} years to get one"`
+    }
+}
 
 
 /*
