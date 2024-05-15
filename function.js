@@ -75,16 +75,12 @@ function double3(x){
 */
 
 
+// 7-
+function cube(number){
+    let reuslt = Math.pow(number,3);
+    return reuslt;
+}
 
-
-/*
-7
-Write a function called cube that:
-accept 1 parameter and calculate the cube of this number
-
-Ex: cube(4)
-=> 64
-*/
 
 
 /*
