@@ -211,21 +211,16 @@ function randomNumber(){
 }
 
 
-
-/*
-21
-Write a function called randomBetweenNumbers
-that takes 2 parameters
-and returns a random number between them
-** hint: you can seacrh using MDN
-
-Ex: randomBetweenNumbers(1,8)
-=> 7.5412
-
-Ex: randomBetweenNumbers(3,100)
-=> 23
-
-*/
+// 21-
+function randomBetweenNumbers(num1,num2){
+    let r =Math.random() * num2;
+    if(r> num1 && r<num2){
+        return r;
+    }else{
+        return (num2-num1)+Math.random() ;
+    }
+    
+}
 
 
 /*
