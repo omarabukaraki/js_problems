@@ -182,18 +182,14 @@ function isOdd(number){
 }
 
 
-/*
-17
-Write a function called positive
-that accept 1 argument as a number,
-and return the positive version of the number passed
+// 17-
+function positive(number){
+    let result;
+    number < 0  ? result = number * (-1) : result = number;
+    return result;
+}
 
-Ex: positive(4)
-=> 4
-Ex: positive(-5)
-=> 5
 
-*/
 
 
 /*
