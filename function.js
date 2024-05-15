@@ -83,16 +83,15 @@ function cube(number){
 
 
 
-/*
-8
-Write a function called multiply that:
-accept 2 parameters and calculate the multiply of these 2 numbers
-
-Ex: multiply(3,4)
-=> 12
-Ex: multiply(5,4)
-=> 20
-*/
+// 8-
+function multiply(num1,num2){
+    if(typeof num1 && typeof num2 === "number"){
+        return num1 * num2;
+    }
+    else{
+        return `Please enter number`;
+    }
+}
 
 
 /*
