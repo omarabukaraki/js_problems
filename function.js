@@ -153,25 +153,20 @@ function shorterString(str1,str2,str3,str4,str5){
 
 
 
+// 14-
+function longerString(str1,str2,str3,str4){
+    let strings = [str1,str2,str3,str4];
+    let longStr = str1;
+    for (let index = 0; index < strings.length; index++) {
+        if(strings[index].length > longStr.length){
+            longStr = strings[index];
+        }
+    }
+    return longStr;
+}
 
 
 
-
-
-/*
-14
-Write a function called longerString
-that accept four string as an arguments,
-and return the first longer string
-
-Ex: longerString("air","school","car","github")
-=> school
-
-Ex: longerString("air","schoo","car","github")
-=> github
-
-try all the cases (change the order of the longestString)
-*/
 
 /*
 15
