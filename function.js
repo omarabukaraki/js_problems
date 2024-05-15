@@ -232,55 +232,17 @@ function scoreInUniversty(score){
     else return `"F"`;
 }
 
+// 23-
+let count = 0;
+function counter(){
+    return ++count;
+}
+
+// 24-
+function resetCounter(){
+    let counter = count;
+    count=0;
+    return `${counter} and the counter reset now`;
+}
 
 
-/*
-23
-Write a function called counter
-that will returns a number bigger
-than the one that returnd before
-and start from 0
-
-Ex: counter()
-=> 1
-
-Ex: counter()
-=> 2
-
-Ex: counter()
-=> 3
-
-*/
-
-
-/*
-24
-Write a function called resetCounter
-that will reset the previuos function
-and return the number before reset and
-a string say that the counter reset
-
-Ex: counter()
-=> 1
-
-Ex: counter()
-=> 2
-
-Ex: counter()
-=> 3
-
-Ex: resetCounter()
-=> 3 and the counter reset now
-
-Ex: counter()
-=> 1
-
-Ex: counter()
-=> 2
-
-Ex: resetCounter()
-=> 2 and the counter reset now
-
-Ex: counter()
-=> 1
-*/
