@@ -37,21 +37,24 @@ function greet(name){
 }
 
 
-/*
-5
-what is the error:
-function double(cat) {
-  return 2 * x;
-}
 
-function double(7) {
-  return 2 * 7;
-}
+// what is the error:
+// 5-
+// function double(cat) {
+//   return 2 * x;
+// } 
+// sol : x is not defined 
 
-function double('7') {
-  return 2 * 'x';
-}
-*/
+// function double(7) {
+//   return 2 * 7;
+// }
+// sol : syntax error becuse the parameter is constant not variable 
+
+// function double('7') {
+//   return 2 * 'x';
+// }
+// sol : syntax error becuse the parameter is constant not variable 
+
 
 
 
