@@ -139,33 +139,24 @@ function smallerNubmer(num1,num2,num3){
 
 
 
+// 13-
+function shorterString(str1,str2,str3,str4,str5){
+    let strings = [str1,str2,str3,str4,str5];
+    let shortStr =str1;
+    for (let index = 0; index < strings.length; index++) {
+        if(strings[index].length < shortStr.length){
+            shortStr = strings[index];
+        }
+    }
+    return shortStr;
+}
 
 
-/*
-13
-Write a function called shorterString
-that accept five string as an arguments,
-and return the first shorter string
 
-Ex: shorterString("air","school","car","by","github")
-=> by
 
-Ex: shorterString("air","tr","car","by","github")
-=> tr
 
-Ex: shorterString("by","tr","car","air","github")
-=> by
 
-Ex: shorterString("air","by","car","school","github")
-=> by
 
-Ex: shorterString("air","tr","by","car","github")
-=> by
-
-Ex: shorterString("air","tr","car","github","by")
-=> by
-
-*/
 
 /*
 14
