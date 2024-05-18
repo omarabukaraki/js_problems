@@ -227,13 +227,7 @@ function repeatChar2(str,char){
 // }
 
 
-// 1
-// 1 and 2
-// 1, 2 and 3
-// 1, 2, 3 and 4
-// 1, 2, 3, 4 and 5
-// 1, 2, 3, 4, 5 and 6
-// console.log(HiSayHelloTo(5));
+
 /*
 5
 Create a function called HiSayHelloTo
@@ -255,70 +249,3 @@ hi 5 Now Pleas Say Hello To 1, 2, 3 and 4
 hi 6 Now Pleas Say Hello To 1, 2, 3, 4 and 5
 hi 7 Now Pleas Say Hello To 1, 2, 3, 4, 5 and 6
 */
-
-
-
-
-
-
-
-
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-////
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-////
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-
-console.log(`x : ${x}`);
-
-var x = "omar";
